@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(45deg, #ff0000, #ffffff); 
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.container {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5); 
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; 
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+
+#countdown {
+    font-size: 2.5em;
+    font-weight: bold;
+    background-color: #ffffff; 
+    color: #ff0000; 
+    padding: 20px;
+    border-radius: 10px; 
+    display: inline-block;
+}
